@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Librerías -->
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/rol.js"></script>
+    
+    </head>
+    <body>
+         <div>
+             <h1>Rol</h1>
+             
+             <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                <form class="col-lg-12" id="frmRol" method="POST">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <label class="control-label" for="nombrerol">Rol</label>
+                            <div class="input-group cocol-lg-12 col-md-12 col-sm-12 col-xs-12l">
+                                <span class="input-group-addon">N</span>
+                                <input class="form-control" id="nombrerol" name="nombrerol">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div align="right">
+                        <button type="submit" class="btn btn-primary btn-lg">Guardar</button> 
+                    </div>
+
+                </form>
+            </div>
+
+        <br>
+
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                <table id="tbRol" > 
+                    <thead>
+                        <tr>
+                           
+                           
+                            <th>Clave</th>
+                            <th>Nombre rol</th>
+                            <th>Acciones</th>
+                            
+                        
+                        </tr>
+		
+                    </thead>
+                </table>
+             </div>
+
+    </body>
+</html>
